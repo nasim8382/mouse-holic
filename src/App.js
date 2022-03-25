@@ -2,9 +2,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Nasim</h1>
-    </div>
+    <body>
+      <div className="App">
+        <h1>Nasim</h1>
+      </div>
+    </body>
   );
 }
 

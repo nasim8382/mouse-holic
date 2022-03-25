@@ -1,0 +1,74 @@
+[
+    {
+        "id":	"1",
+        "name": "Logitech MX Master 3",
+        "price": "150",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/logitech/mx-master-3/mx-master-3-graphite-top-500x500.jpg"
+    },
+    {
+        "id":	"2",
+        "name": "Logitech G502",
+        "price": "143",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/logitech/g502-lightspeed/g502-lightspeed-001-500x500.jpg"
+    },
+    {
+        "id":	"3",
+        "name": "Logitech G903",
+        "price": "132",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/logitech/g903-lightspeed/g903-lightspeed-01-500x500.jpg"
+    },
+    {
+        "id":	"4",
+        "name": "Rapoo MT750S",
+        "price": "100",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/rapoo/mt750s/mt750s-1-500x500.jpg"
+    },
+    {
+        "id":	"5",
+        "name": "Razer DeathAdder",
+        "price": "125",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/razer/deathadder-v2-x-hyperspeed/deathadder-v2-x-hyperspeed-01-500x500.jpg"
+    },
+    {
+        "id":	"6",
+        "name": "Rapoo MT350",
+        "price": "111",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/rapoo/mt350/mt350-1-500x500.jpg"
+    },
+    {
+        "id":	"7",
+        "name": "Razer Basilisk V3",
+        "price": "90",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/razer/basilisk-v3/basilisk-v3-01-500x500.jpg"
+    },
+    {
+        "id":	"8",
+        "name": "Razer Basilisk X",
+        "price": "68",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/razer/basilisk-x-hyperspeed/basilisk-x-hyperspeed-500x500.jpg"
+    },
+    {
+        "id":	"9",
+        "name": "Razer Orochi V2",
+        "price": "83",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/razer/orochi-v2/orochi-v2-001-500x500.jpg"
+    },
+    {
+        "id":	"10",
+        "name": "Apple Magic Mouse",
+        "price": "112",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/apple/magic-mouse/magic-mouse-01-500x500.jpg"
+    },
+    {
+        "id":	"11",
+        "name": "Keychron M1",
+        "price": "55",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/keychron/keychron-m1/m1-black-01-500x500.jpg"
+    },
+    {
+        "id":	"12",
+        "name": "Microsoft Surface ARC",
+        "price": "118",
+        "img":	"https://www.startech.com.bd/image/cache/catalog/mouse/microsoft/souris-arc/souris-arc-bla-500x500.jpg"
+    }
+]
