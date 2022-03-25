@@ -4,7 +4,7 @@ import React from 'react';
 import './Mouse.css';
 
 const Mouse = ({mouse, handleOrder}) => {
-    const {id, name, price, img} = mouse;
+    const {name, price, img} = mouse;
     return (
         <div className='mouse-card'>
             <img src={img} alt="mouse" />

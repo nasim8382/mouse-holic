@@ -1,0 +1,47 @@
+.cart h1 {
+    color: crimson;
+    font-weight: 500;
+    font-family: cursive;
+    margin: 40px 0px;
+}
+
+.single-order-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cart-img img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20%;
+    right: 20%;
+}
+
+.cart-text {
+    color: blueviolet;
+    width: 150px;
+}
+
+.delete-btn {
+    font-size: 25px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    color: blueviolet;
+}
+
+.delete-btn:hover {
+    color: crimson;
+    transition: 0.4s;
+}
