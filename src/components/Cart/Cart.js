@@ -20,10 +20,10 @@ const Cart = ({orders}) => {
                 </div>)
             }
             <div>
-                <button className='order-btn'>Set a single item</button>
+                <button className='cart-btn'>Set a single item</button>
             </div>
             <div>
-                <button className='order-btn'>Pick once more</button>
+                <button className='cart-btn'>Pick once more</button>
             </div>
         </div>
     );

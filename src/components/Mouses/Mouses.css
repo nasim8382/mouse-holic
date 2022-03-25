@@ -18,6 +18,7 @@
     position: sticky;
     top: 0;
     border-radius: 90px 5px;
+    height: 660px;
 }
 
 /* for mobile devices */
@@ -39,7 +40,6 @@
         margin: auto;
         border-radius: 10px;
         margin-top: 50px;
-        height: 550px;
     }
 
 }
@@ -62,7 +62,6 @@
         position: static;
         margin: auto;
         margin-top: 50px;
-        height: 550px;
     }
 }
 
