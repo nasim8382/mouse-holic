@@ -3,7 +3,7 @@ import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import './Cart.css';
 
-const Cart = ({orders}) => {
+const Cart = ({orders, setOne, removeAll}) => {
     return (
         <div className='cart'>
             <h1>Ordered Mouse</h1>
@@ -20,10 +20,10 @@ const Cart = ({orders}) => {
                 </div>)
             }
             <div>
-                <button className='cart-btn'>Set a single item</button>
+                <button onClick={setOne} className='cart-btn'>Set a single item</button>
             </div>
             <div>
-                <button className='cart-btn'>Pick once more</button>
+                <button onClick={removeAll} className='cart-btn'>Pick once more</button>
             </div>
         </div>
     );

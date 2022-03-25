@@ -13,10 +13,33 @@ const Mouses = () => {
         .then(data => setMouses(data));
     }, [])
 
+    const handleDuplicateOrders = data => {
+        return data.filter((value, index) => data.indexOf(value) === index)
+    };
+
     const handleOrder = mouse => {
-        const newOrder = [...orders, mouse];
-        setOrders(newOrder);
-    } 
+        if (orders.length < 4) {
+           const newOrder = handleDuplicateOrders([...orders, mouse]);
+            setOrders(newOrder);
+        }
+        else {
+            alert('Oops!!! you have ordered maximum mouses.')
+        }
+    }
+
+    const setOne = () => {
+        const quantity = orders.length;
+        if (quantity > 1) {
+            const randomIndex = Math.round(Math.random() * quantity);
+            const singleIndex = [orders[randomIndex]]
+            setOrders(singleIndex);
+        }
+        else {
+            alert('Please order more than one!!!!!');
+        }
+    }
+
+    const removeAll = () => setOrders([]);
 
     return (
         <div className='mouse-container'>
@@ -30,7 +53,11 @@ const Mouses = () => {
             }
             </div >
             <div className='order-cart'>
-                <Cart orders={orders}></Cart>
+                <Cart 
+                orders={orders}
+                setOne={setOne}
+                removeAll= {removeAll}
+                ></Cart>
             </div>
         </div>
     );
