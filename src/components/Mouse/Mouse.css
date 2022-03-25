@@ -1,0 +1,44 @@
+.mouse-card {
+    text-align: center;
+    background-color: rgb(203, 230, 230);
+    padding: 30px;
+    border-radius: 20px 70px;
+}
+
+.mouse-card img{
+    width: 300px;
+    margin: auto;
+    border-radius: 10px 50px;
+}
+
+.mouse-card  h2 {
+    color: crimson;
+}
+
+.order-btn {
+    padding: 5px 40px;
+    border-radius: 70px 10px;
+    border: 2px solid crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.order-btn:hover {
+    background-color: antiquewhite;
+    transition: 0.2s;
+    border: 2px solid blueviolet;
+    border-radius: 10px 70px;
+}
+
+.order-btn p {
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: blueviolet;
+}
+
+.order-icon {
+    font-size: 20px;
+    color: blueviolet;
+}
