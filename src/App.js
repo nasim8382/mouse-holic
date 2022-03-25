@@ -1,12 +1,13 @@
 import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
   return (
-    <body>
-      <div className="App">
-        <h1>Nasim</h1>
+    <div className="App">
+      <div className='main-container'>
+        <Header></Header>
       </div>
-    </body>
+    </div>
   );
 }
 

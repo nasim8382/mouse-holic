@@ -1,12 +1,9 @@
-body{
-  background-color: aliceblue;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 .App {
   text-align: center;
+}
+
+.main-container {
+  background-color: aliceblue;
 }
 
 .App-logo {
