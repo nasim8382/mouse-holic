@@ -1,7 +1,17 @@
 .accordian {
     padding: 100px 50px;
+    text-align: left;
 }
 
 .accordian-heading {
     color: blueviolet;
+}
+
+.ordered-list li{
+    margin-bottom: 10px;
+}
+
+.accordian-text span {
+    color: deeppink;
+    font-size: 18px;
 }
