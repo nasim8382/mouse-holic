@@ -1,6 +1,7 @@
 .cart h1 {
     color: crimson;
     font-weight: 500;
+    font-size: 30px;
     font-family: cursive;
     margin: 40px 0px;
 }
@@ -31,6 +32,7 @@
 .cart-text {
     color: blueviolet;
     width: 150px;
+    font-size: 20px;
 }
 
 .delete-btn {
@@ -47,10 +49,10 @@
 }
 
 .cart-btn {
-    padding: 15px 30px;
+    padding: 10px 30px;
     text-transform: uppercase;
     margin: 20px 0px;
-    border-radius: 40px 5px;
+    border-radius: 50px 5px;
     border: 2px solid crimson;
     color: blueviolet;
 }
@@ -59,5 +61,5 @@
     background-color: antiquewhite;
     transition: 0.2s;
     border: 2px solid blueviolet;
-    border-radius: 10px 70px;
+    border-radius: 5px 50px;
 }

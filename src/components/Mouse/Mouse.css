@@ -1,7 +1,7 @@
 .mouse-card {
     text-align: center;
     background-color: rgb(203, 230, 230);
-    padding: 30px;
+    padding: 50px 30px;
     border-radius: 20px 70px;
 }
 
@@ -11,14 +11,19 @@
     border-radius: 10px 50px;
 }
 
-.mouse-card  h2 {
+.mouse-card  h3 {
     color: crimson;
     font-family: cursive;
+    margin-top: 25px;
+}
+
+.mouse-card h4 {
+    padding: 20px 0px;
 }
 
 .order-btn {
-    padding: 5px 40px;
-    border-radius: 70px 10px;
+    padding: 0px 40px;
+    border-radius: 70px 5px;
     border: 2px solid crimson;
     display: flex;
     align-items: center;
@@ -30,11 +35,12 @@
     background-color: antiquewhite;
     transition: 0.2s;
     border: 2px solid blueviolet;
-    border-radius: 10px 70px;
+    border-radius: 5px 70px;
 }
 
 .order-btn p {
     text-transform: uppercase;
+    margin-top: 15px;
     margin-right: 10px;
     color: blueviolet;
 }
