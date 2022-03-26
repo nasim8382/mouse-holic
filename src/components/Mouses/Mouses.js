@@ -30,7 +30,7 @@ const Mouses = () => {
     const setOne = () => {
         const quantity = orders.length;
         if (quantity > 1) {
-            const randomIndex = Math.round(Math.random() * quantity);
+            const randomIndex = Math.floor(Math.random() * quantity);
             const singleIndex = [orders[randomIndex]]
             setOrders(singleIndex);
         }
@@ -40,6 +40,10 @@ const Mouses = () => {
     }
 
     const removeAll = () => setOrders([]);
+
+    const removeItem = id => {
+        setOrders(orders.filter(order => order.id !== id));
+    }
 
     return (
         <div className='mouse-container'>
@@ -57,6 +61,7 @@ const Mouses = () => {
                 orders={orders}
                 setOne={setOne}
                 removeAll= {removeAll}
+                removeItem={removeItem}
                 ></Cart>
             </div>
         </div>
